@@ -38,6 +38,12 @@ export class MenuComponent {
           {
             label: 'Otros elementos',
             icon:  'pi pi-cog',
+            items: [
+                {
+                    label: 'Print',
+                    icon: 'pi pi-fw pi-print'
+                }
+            ]
           },
         ],
       }
