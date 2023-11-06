@@ -32,10 +32,9 @@
     <!-- Date -->
     
     <div class="col-12 md:col-6">
-      <p-card header="Littlecase">
+      <p-card header="Date Pipes">
         <ol>
           <li> Fecha </li>
-          <br>
           <li> Fecha | date </li>
           <li> Fecha | date:'short' </li>
           <li> Fecha | date:'long' </li>
@@ -46,13 +45,14 @@
         <ol>
           <li> fecha | date:'long':'GTM-6' </li>
           <li> fecha | date:'long':'GTM-4' </li>
+          <li> fecha | date:'long':'':'es-419' </li>
         </ol>
       </p-card>
     </div>
 
     
     <div class="col-12 md:col-6">
-      <p-card header="Littlecase">
+      <p-card header="Date Pipes ">
         <ol>
           <li> {{ currentDate }} </li>
           <li> {{ currentDate |  date }} </li>
@@ -66,6 +66,7 @@
         <ol>
           <li> {{ currentDate | date:'long':'GMT+1' }} </li>
           <li> {{ currentDate | date:'long':'GMT-4' }} </li>
+          <li> {{ currentDate | date:'long':'':'es-419' }} </li>
         </ol>
       </p-card>
     </div>
